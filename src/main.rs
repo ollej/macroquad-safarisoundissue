@@ -5,7 +5,7 @@ use macroquad::{
 
 #[macroquad::main("Safari sound issue")]
 async fn main() {
-    let sound = load_sound("assets/theme.ogg").await.unwrap();
+    let sound = load_sound("assets/test.ogg").await.unwrap();
     play_sound(
         sound,
         PlaySoundParams {
